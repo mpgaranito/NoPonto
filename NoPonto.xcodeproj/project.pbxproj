@@ -19,6 +19,7 @@
 		AC70D8CA231AA2D500D62E8E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70D8C9231AA2D500D62E8E /* InterfaceController.swift */; };
 		AC70D8CC231AA2D500D62E8E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70D8CB231AA2D500D62E8E /* ExtensionDelegate.swift */; };
 		AC70D8CE231AA2D600D62E8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC70D8CD231AA2D600D62E8E /* Assets.xcassets */; };
+		AC70D8DE231AB9A600D62E8E /* MeatTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70D8DD231AB9A600D62E8E /* MeatTemperature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		AC70D8CB231AA2D500D62E8E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		AC70D8CD231AA2D600D62E8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC70D8CF231AA2D600D62E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC70D8DD231AB9A600D62E8E /* MeatTemperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatTemperature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,9 +127,9 @@
 			children = (
 				AC70D8A6231AA2D200D62E8E /* AppDelegate.swift */,
 				AC70D8A8231AA2D200D62E8E /* ViewController.swift */,
+				AC70D8AF231AA2D400D62E8E /* LaunchScreen.storyboard */,
 				AC70D8AA231AA2D200D62E8E /* Main.storyboard */,
 				AC70D8AD231AA2D400D62E8E /* Assets.xcassets */,
-				AC70D8AF231AA2D400D62E8E /* LaunchScreen.storyboard */,
 				AC70D8B2231AA2D400D62E8E /* Info.plist */,
 			);
 			path = NoPonto;
@@ -150,6 +152,7 @@
 				AC70D8CB231AA2D500D62E8E /* ExtensionDelegate.swift */,
 				AC70D8CD231AA2D600D62E8E /* Assets.xcassets */,
 				AC70D8CF231AA2D600D62E8E /* Info.plist */,
+				AC70D8DD231AB9A600D62E8E /* MeatTemperature.swift */,
 			);
 			path = "NoPonto WatchKit Extension";
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			files = (
 				AC70D8CC231AA2D500D62E8E /* ExtensionDelegate.swift in Sources */,
 				AC70D8CA231AA2D500D62E8E /* InterfaceController.swift in Sources */,
+				AC70D8DE231AB9A600D62E8E /* MeatTemperature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
